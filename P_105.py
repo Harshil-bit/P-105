@@ -4,7 +4,7 @@ import math
 
 # list of elements to calculate mean
 import csv
-with open('data.csv', newline='') as f:
+with open('data_P105.csv', newline='') as f:
     reader = csv.reader(f)
     file_data = list(reader)
 
